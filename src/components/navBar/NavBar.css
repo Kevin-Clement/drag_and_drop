@@ -1,0 +1,85 @@
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-black);
+    height: 64px;
+    padding: 0 5px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.navBar__logo--right-content{
+    margin-left: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.navBar__logo--right{
+    display: flex;
+}
+
+.navBar__logo--right > img{
+    height: 50px;
+}
+
+.navBar__logo--right-text{
+    margin: 0;
+    color: var(--color-white);
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.navBar__logo--right-button{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navBar__logo--right-button > p{
+    margin: 0;
+    color: var(--color-grey);
+    font-size: 0.9rem;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.navBar__logo--right-button > p:hover{
+    color: var(--color-white);
+} 
+
+.navBar__logo--right-button > button {
+    height: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 0.7rem;
+}
+
+.navBar__logo--right-button > button:nth-child(2){
+    background-color: #FFDD40;
+}
+
+.navBar__logo--right-button > button:nth-child(3){
+    background-color: #00B961;
+}
+
+.navBar__logo--right-button > button:nth-child(3):hover{
+    background-color: #248C46;
+    color: var(--color-white);
+}
+
+.navBar__menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navBar__menu Button:nth-child(3){
+    background-color: #00c465;
+    color: var(--color-black);
+}
+
