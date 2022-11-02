@@ -1,0 +1,17 @@
+.home__layout{
+    display: flex;
+    flex-direction: column;
+    margin-top: 64px;
+}
+
+.home__layout > h1, p, span{
+    color: var(--color-white);
+}
+
+.home__layout > p{
+    margin-bottom: 2rem;
+}
+
+.home__layout > span{
+    margin: 2rem;
+}
